@@ -15,7 +15,6 @@
             <version>5.8.2</version>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

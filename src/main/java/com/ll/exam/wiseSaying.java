@@ -32,5 +32,15 @@ public class wiseSaying {
     public int getId(){
         return this.id;
     }
+    public void setContent(String content){
+        this.content = content;
+    }
+    public void setAuthors(String author){
+        this.author = author;
+    }
+    public void setId(int id){
+        this.id = id;
+    }
+
 
 }

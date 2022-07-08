@@ -58,6 +58,7 @@ public class App {
                                 System.out.println(s[1]+"번 명언이 삭제되었습니다.");
                                 datalist.remove(i);
                                 check = 1;
+                                break;
                             }
 
                         }
@@ -71,6 +72,19 @@ public class App {
                     catch(Exception e){
                         System.out.println(s[1]+"번 명언은 존재하지 않습니다.");
                     }
+                    break;
+                case"수정=id?":
+                    for(int i = 0; i<datalist.size(); i++){
+                        int index = Integer.parseInt(s[1]);
+                        if(datalist.get(i).getId() == index){
+                            System.out.println(s[1]+"번 명언이 삭제되었습니다.");
+                            datalist.remove(i);
+                            check = 1;
+                            break;
+                        }
+
+                    }
+                    //datalist.set(1);
                     break;
             }
         }
