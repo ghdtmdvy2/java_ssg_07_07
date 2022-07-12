@@ -56,7 +56,7 @@ public class App {
         System.out.printf("명언 : ");
         String content = sc.nextLine().trim();
         System.out.printf("작가 : ");
-        String author = sc.nextLine().trim(); /
+        String author = sc.nextLine().trim();
         int id = ++wiseSayingLastId; // 명언 글 번호 증가
 
         WiseSaying wiseSaying = new WiseSaying(id, content, author);
